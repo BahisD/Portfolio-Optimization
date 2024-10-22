@@ -1,0 +1,12 @@
+# data_retrieval.py
+import yfinance as yf
+import pandas as pd
+
+# List of stock tickers
+tickers = ['AAPL', 'MSFT', 'GOOGL', 'TSLA', 'AMZN']
+
+# Download historical data for each stock
+stock_data = yf.download(tickers, start="2020-01-01", end="2023-01-01")['Adj Close']
+
+# Save the data to a CSV file
+stock_data.to_csv('data/stock_data.csv')
