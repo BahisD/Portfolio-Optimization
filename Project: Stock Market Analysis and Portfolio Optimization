@@ -1,0 +1,17 @@
+/stock-market-analysis
+│
+├── README.md                      # Overview of the project
+├── data/                          
+│   ├── stock_data.csv              # Dataset containing historical stock prices
+│
+├── notebooks/                     
+│   ├── stock_analysis.ipynb        # Jupyter notebook for stock data EDA and visualizations
+│   ├── portfolio_optimization.ipynb # Jupyter notebook for portfolio optimization
+│
+├── scripts/                       
+│   ├── data_retrieval.py           # Script to pull stock data using Yahoo Finance API
+│   ├── optimization.py             # Script for portfolio optimization calculations
+│
+├── results/                       
+│   ├── optimized_portfolio.xlsx    # Excel file containing portfolio allocation results
+│   ├── stock_price_trends.pdf      # PDF containing stock price trend visualizations
